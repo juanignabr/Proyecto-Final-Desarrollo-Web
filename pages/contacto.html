@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- link AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
+	<!-- linkeo de bootstrap 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    -->
+	<!-- mi css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+	<!-- FONTS/ICONS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" 
+
+	rel="stylesheet">
+    <title>Red Hot Chilli Peppers</title>
+	<link rel="icon" href="https://redhotchilipeppers.com/wp-content/themes/redhotchilipeppers/assets/images/favicon.png" type="image/x-icon">
+
+  </head>
+  <body>
+	<div class="container-fluid">
+		<!-- nav -->
+		<div class="row">
+			<div class="col-lg-12 col-xs-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-nuestro">
+					<div class="navbar-brand">
+					<img src="../img/logo.png" alt="logo" width="350px" class="rotateimg180">
+
+					</div>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item">
+				        <a class="nav-link" href="./galeria.html">Galeria</a>
+				      </li>
+					  <li class="nav-item">
+				        <a class="nav-link" href="./albumes.html">Albumes</a>
+				      </li>
+					  <li class="nav-item">
+				        <a class="nav-link" href="./recitales.html">Recitales</a>
+				      </li>
+					  <li class="nav-item">
+				        <a class="nav-link" href="contacto.html">Contacto</a>
+				      </li>
+
+
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+			</div>
+	<!-- cierre nav -->
+	<div class="contact_form">
+		<h1 class="titlefont">CONTÁCTANOS</h1>
+
+		<div class="formulario">      
+	
+	
+			  <form action="submeter-formulario.php" method="post">       
+	
+				
+					<p>
+					  <label for="nombre" class="colocar_nombre">Nombre
+						<span class="obligatorio">*</span>
+					  </label>
+						<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+					</p>
+				  
+					<p>
+					  <label for="email" class="colocar_email">Email
+						<span class="obligatorio">*</span>
+					  </label>
+						<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+					</p>
+				
+					<p>
+					  <label for="telefone" class="colocar_telefono">Teléfono
+					  </label>
+						<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+					</p>    
+				  
+					
+				  
+					<p>
+					  <label for="asunto" class="colocar_asunto">Asunto
+						<span class="obligatorio">*</span>
+					  </label>
+						<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+					</p>    
+				  
+					<p>
+					  <label for="mensaje" class="colocar_mensaje">Mensaje
+						<span class="obligatorio">*</span>
+					  </label>                     
+										<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+									</p>                    
+				  
+					<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+	
+					<p class="aviso">
+					  <span class="obligatorio"> * </span>los campos son obligatorios.
+					</p>          
+				
+			  </form>
+		</div>  
+	  </div>
+	
+
+	  <!-- Footer-->
+	<footer class="container-fluid">
+		<div class="row bg--footer">
+			<div class="col-lg-4 col-xs-12">
+				<img src="../img/logo.png" alt="logoFooter" class="rotateimg180" width="300 px">
+			</div>
+			<div class="col-lg-4 col-xs-12 modificacionMovile">
+				<h3>Nuestras Redes</h3>
+				<a href="https://www.facebook.com/ChiliPeppers/"><img src="../img/facebook.png" alt="logoFace" class="bloque"></a>
+				<a href="https://www.instagram.com/chilipeppers/?hl=es"  ><img src="../img/instagram.png" alt="logoInsta" class="bloque"></a>
+				<a href="https://twitter.com/chilipeppers?lang=es"  ><img src="../img/twitter.png" alt="logoTW" class="bloque"></a>
+				
+			</div>
+			<div class="col-lg-4 col-xs-12 modificacionMovile">
+				<h3>Escuchanos en</h3>
+				<a href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5?si=3qSSyylAQyCM1jEEUvmi4w"><img src="../img/spotify.png" alt="logoSpoti" class="bloque"></a>
+				 <a href="https://www.youtube.com/c/RedHotChiliPeppers/featured"><img src="../img/youtube.png" alt="logoYT" class="bloque"></a>
+		
+		
+		
+			
+	</footer>
+	<div class="row rowSinMargin">
+		<div class="col-lg-12 col-xs-12 bg--copy">
+			<h3 class="copyrighty"> Página tributo sin fines de lucro. Todos los derechos reservados. Desarrollado por: Juan Bracamonte</h3>
+		</div>
+</div>
+<!-- scripts bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<!-- SCRIPT AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>
